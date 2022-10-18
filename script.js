@@ -9,7 +9,7 @@ const emailInput = document.getElementById('email')
 const telephoneInput = document.getElementById('telephone')
 const hidden = document.getElementById('hidden')
 
-let users = JSON.parse(localStorage.getItem('users'))
+let users = JSON.parse(localStorage.getItem('users')) || []
 
 addUser(users)
 
